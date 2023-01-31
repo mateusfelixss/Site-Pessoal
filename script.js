@@ -1,4 +1,4 @@
-var target_date = new Date("june 03, 2021").getTime();
+var target_date = new Date("February 17, 2023").getTime();
 var dias, horas, minutos, segundos;
 var regressiva = document.getElementById("regressiva");
 

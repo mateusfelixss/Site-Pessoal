@@ -1,29 +1,81 @@
+body{
+    background: url('Images/fundo.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+  }
+
+.principal{
+    margin-top: 10%;
+
+    background: #076dda;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.cabeçalho{
+    margin-bottom: 5%;
+
+    background: #07da19;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+
+
+}
 .contagem {
-    width: 300px;
+    /* width: 300px;
     height: 70px;
-    background-color: #ffffff;
-    margin-top: 20%;
+    background-color: #ec1d1d;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto; */
+    /* width: 100vw;
+    height: 100vh; */
+    background: #6c7a8900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+
 }
 
 .numero {
     min-width: 20px;
     max-width: 55px;
-    background-color: #efefef;
+    background-color: #ffffffb0;
     color: #000000;
-    font-size: 22px;
+    font-size: 27px;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
     padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
 }
 
 .legenda {
-    height: 25px;
+    /* height: 25px; */
     line-height: 10px;
-    font-size: 12px;
-    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ffffffb0;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
 }
