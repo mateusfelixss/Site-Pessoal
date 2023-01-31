@@ -4,32 +4,60 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  
   }
+
+body p{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
 
 .principal{
     margin-top: 10%;
-
-    background: #076dda;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
+
+.principal h1 {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.principal img {
+    height: 30%;
+    width: 30%;
+}
+
+.secundaria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secundaria p {
+    text-align: justify;
+    color: black;
+    font-weight: bold;
+}
+
 .cabeçalho{
     margin-bottom: 5%;
 
-    background: #07da19;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; 
     text-align: center;
-
+    color: black;
 
 }
+
 .contagem {
     /* width: 300px;
     height: 70px;
